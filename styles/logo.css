@@ -1,0 +1,37 @@
+.backname {
+  fill: lightpink;
+}
+
+.backdrop {
+  fill: lightpink;
+  animation-play-state: paused;
+}
+
+svg:hover .backdrop {
+  animation-duration: 3000ms;
+  transform-origin: 24.691px 35.778px;
+  animation-direction: reverse;
+  animation-name: slide;
+  animation-play-state: running;
+}
+
+svg:hover .person {
+  animation-duration: 3500ms;
+  transform-origin: 24.691px 35.778px;
+  animation-direction: reverse;
+  animation-name: slide;
+  animation-play-state: running;
+}
+
+@keyframes slide {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.person {
+  animation-play-state: paused;
+}
