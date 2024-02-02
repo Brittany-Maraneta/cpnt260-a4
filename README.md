@@ -12,7 +12,7 @@ https://brittany-maraneta.github.io/cpnt260-a4/
 2. Footer icon
 3. Animation
 
-## Reference for image
+## Reference for images
 
 1. https://www.pexels.com/
 
