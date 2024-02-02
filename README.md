@@ -10,7 +10,7 @@ https://brittany-maraneta.github.io/cpnt260-a4/
 
 1. Navigation bar and hovering
 2. Footer icon
-3. Animation
+3. SVG Animation
 
 ## Reference for images
 
