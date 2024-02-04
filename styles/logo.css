@@ -1,9 +1,9 @@
 .backname {
-  fill: lightpink;
+  fill: hsl(351, 100%, 86%);
 }
 
 .backdrop {
-  fill: lightpink;
+  fill: hsl(351, 100%, 86%);
   animation-play-state: paused;
 }
 

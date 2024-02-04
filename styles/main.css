@@ -34,16 +34,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
+  position: fixed;
+  top: 0;
 }
 
 .topnav a:hover {
   color: hsl(350, 100%, 88%);
   transition: 0.3s;
-}
-
-.navlist {
-  display: flex;
-  gap: 1em;
 }
 
 #aboutMeSection {
@@ -77,6 +74,7 @@ button {
 
 footer {
   font-size: 17px;
+  margin-top: 0;
   align-items: center;
   color: hsl(0, 0%, 95%);
   background-color: hsl(0, 0%, 20%);
@@ -106,6 +104,7 @@ svg {
   text-align: center;
 }
 
+/* hamburger menu */
 .menu-toggle {
   display: none;
 }
@@ -154,4 +153,8 @@ svg {
   .hamburger {
     display: block;
   }
+}
+
+.current {
+  color: hsl(350, 100%, 88%);
 }
